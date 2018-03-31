@@ -1,0 +1,47 @@
+body,html{
+	width:100%;
+	margin:0;
+	height:cover;
+  }
+ .carousel-item img{
+	width: 100%;
+    height:100vh;
+}
+.carousel-inner{
+	width: 100%;
+    height:100vh;
+	//use min-height & max-height:100vh; 
+
+}
+.navbar{
+      position:absolute;
+      width:100%;
+	  top:100px;
+      z-index:10;
+      max-width:100%;
+}
+.nav-brand,.nav-link,nav #search-bar,.bbbb{
+	margin-left:10px;
+	font-size:20px;
+}
+.bbbb{
+	border-radius:0;
+}
+nav #search-bar{
+	background-color:none;
+	opacity:0.3;
+	margin-left:0;
+	margin-right:0;
+	border-radius:0;
+	padding-right:0;
+	margin-right:0;
+}
+nav #search-bar:hover{
+	opacity:1.0;
+	
+}
+#search-span{
+	border:1px solid white;
+	padding:0;
+	margin:0;
+}

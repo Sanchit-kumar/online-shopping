@@ -14,6 +14,13 @@
 	</properties>
 	
   <dependencies>
+  
+  	<!-- Linking with the backend project -->
+  		<dependency>
+		    <groupId>online.ecom</groupId>
+		    <artifactId>shopbackend</artifactId>
+		     <version>0.0.1-SNAPSHOT</version>
+		</dependency>
   	<!-- java ee api -->
   	<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 	
